@@ -6,7 +6,7 @@ VOLUME [ "/in" ]
 
 VOLUME [ "/out" ]
 
-ENV OUTPUT_FILE_PREFIX="backup"
+ENV OUTPUT_FILE="backup"
 
 ADD ./backup.sh /app/
 
