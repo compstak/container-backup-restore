@@ -1,2 +1,2 @@
 #!/bin/sh
-tar  -C /out --same-owner -xzvf /in/${OUTPUT_FILE}.tar.gz
+tar  -C /out -xzvf /in/${OUTPUT_FILE}.tar.gz
